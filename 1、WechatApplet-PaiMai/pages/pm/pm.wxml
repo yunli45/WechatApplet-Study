@@ -1,0 +1,29 @@
+<!--pages/pm/pm.wxml-->
+<view wx:for="{{list}}" class="contain">
+    <view class="item">
+        <view class="title">
+            <navigator url="/pages/DetailPage/DetailPage?id={{item.id}}" hover-class="other-navigator-hover">
+                {{item.title}}
+            </navigator>
+        </view>
+        <view class="tips">
+            <view class="info">
+                <view class="status">{{item.status}}</view>
+                <view class="time">{{item.time}}</view>
+            </view>
+
+            <view class="count">{{item.count}}</view>
+        </view>
+        <view class="big">
+            <image src="{{item.img[0]}}"></image>
+        </view>
+
+
+        <view class="small">
+            <image  wx:for="{{item.img}}" src="{{item}}"></image>
+        </view>
+
+
+    </view>
+
+</view>

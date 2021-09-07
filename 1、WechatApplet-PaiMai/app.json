@@ -2,13 +2,15 @@
   "pages": [
     "pages/index/index",
     "pages/My/My",
-    "pages/DetailPage/DetailPage"
+    "pages/DetailPage/DetailPage",
+    "pages/pm/pm",
+    "pages/release_new/release_new",
+    "pages/news/news"
   ],
   "window": {
     "navigationBarBackgroundColor": "#afb4db",
     "navigationBarTitleText": "个人拍卖",
     "navigationBarTextStyle": "white"
-    
   },
   "tabBar": {
     "selectedColor": "#aa363d",
@@ -17,14 +19,32 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "icon/index.png",
-        "selectedIconPath": "icon/index1.png"
+        "iconPath": "icon/tabBar/index.png",
+        "selectedIconPath": "icon/tabBar/index1.png"
+      },
+      {
+        "pagePath": "pages/pm/pm",
+        "text": "拍卖",
+        "iconPath": "icon/tabBar/pm.png",
+        "selectedIconPath": "icon/tabBar/pm1.png"
+      },
+      {
+        "pagePath": "pages/release_new/release_new",
+        "text": "发布",
+        "iconPath": "icon/tabBar/release.png",
+        "selectedIconPath": "icon/tabBar/release1.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "icon/tabBar/news.png",
+        "selectedIconPath": "icon/tabBar/news1.png"
       },
       {
         "pagePath": "pages/My/My",
         "text": "我的",
-        "iconPath": "icon/My.png",
-        "selectedIconPath": "icon/My1.png"
+        "iconPath": "icon/tabBar/My.png",
+        "selectedIconPath": "icon/tabBar/My1.png"
       }
     ]
   },

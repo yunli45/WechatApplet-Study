@@ -41,7 +41,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.17.0",
   "appid": "wx868dbda1f6d5cf05",
-  "projectname": "auction",
+  "projectname": "WechatApplet-PaiMai",
   "debugOptions": {
     "hidedInDevtools": []
   },

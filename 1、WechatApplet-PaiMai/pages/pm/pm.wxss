@@ -1,0 +1,55 @@
+/* pages/pm/pm.wxss */
+.item{
+  margin-bottom: 40rpx;
+}
+.contain .item .title{
+ font-size: 45rpx;
+ font-weight: 600;
+}
+
+.contain .tips{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ font-size: 30rpx;
+ justify-content: space-between;
+}
+.info{
+ display: flex;
+ flex-wrap: nowrap;
+  
+}
+.status{
+ color: #a1a3a6;
+ margin-right: 15rpx;
+}  
+
+.big{
+ height: 400rpx;
+ overflow: hidden;
+}
+
+.big image{
+   height: 100%;
+   width: 100%;
+}
+
+.small{
+ display: flex; 
+ flex-direction: row;
+ justify-content: flex-start;
+
+}
+
+.small image{
+ width: 100rpx;
+ height: 100rpx;
+ padding-right: 20rpx;
+}
+
+.navigator-hover {
+ color:blue;
+}
+.other-navigator-hover {
+ color:red;
+}

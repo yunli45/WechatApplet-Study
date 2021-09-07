@@ -1,29 +1,16 @@
-<!--pages/index/index.wxml--> 
-<view wx:for="{{list}}" class="contain">
-    <view class="item">
-        <view class="title">
-            <navigator url="/pages/DetailPage/DetailPage?id={{item.id}}" hover-class="other-navigator-hover">
-                {{item.title}}
-            </navigator>
-        </view>
-        <view class="tips">
-            <view class="info">
-                <view class="status">{{item.status}}</view>
-                <view class="time">{{item.time}}</view>
-            </view>
-
-            <view class="count">{{item.count}}</view>
-        </view>
-        <view class="big">
-            <image src="{{item.img[0]}}"></image>
-        </view>
-
-
-        <view class="small">
-            <image  wx:for="{{item.img}}" src="{{item}}"></image>
-        </view>
-
-
-    </view>
-
+<!--pages/index/index.wxml-->
+        <!--分为两个部分 上部分是导航条、下部分是根据点击导航条后显示的内容-->
+        <!-- 导航条 -->
+<view>
+    <text></text>
+</view>
+        <!-- 内容 -->
+<view hidden="true">
+    首页
+</view>
+<view hidden="true">
+    首页1
+</view>
+<view hidden="true">
+    首页2
 </view>
