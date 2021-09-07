@@ -1,0 +1,30 @@
+<!--pages/DetailPage/DetailPage.wxml-->
+<view class="content">
+    <view class="tips">
+        <view class="info">
+            <view class="status">{{info.status}}</view>
+            <view class="time">{{info.time}}</view>
+        </view>
+
+        <view class="count">{{info.count}}</view>
+    </view>
+
+
+    <view class="img">
+        <!-- 滑块 自行切换图片-->
+        <swiper indicator-dots="true" indicator-color="rgba(0, 0, 0, .3)" duration="500"
+                indicator-active-color="#f15b6c" autoplay="true" interval="1000">
+            <block wx:for="{{background}}" wx:key="*this">
+                <swiper-item>
+                    <image src="{{item}}"></image>
+                </swiper-item>
+            </block>
+        </swiper>
+        <view class="small">
+            <image wx:for="{{info.img}}" src="{{item}}"></image>
+        </view>
+    </view>
+    <view class="dec">
+        <text class="user-motto" decode="{{true}}"> {{info.dec}}</text>
+    </view>
+</view>

@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/My/My",
+    "pages/DetailPage/DetailPage"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#afb4db",
+    "navigationBarTitleText": "个人拍卖",
+    "navigationBarTextStyle": "white"
+    
+  },
+  "tabBar": {
+    "selectedColor": "#aa363d",
+    "backgroundColor": "#f6f5ec",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/index.png",
+        "selectedIconPath": "icon/index1.png"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "text": "我的",
+        "iconPath": "icon/My.png",
+        "selectedIconPath": "icon/My1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

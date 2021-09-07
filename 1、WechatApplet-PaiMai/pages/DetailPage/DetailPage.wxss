@@ -1,0 +1,58 @@
+/* pages/index/index.wxss */
+
+.detail {
+    font-size: 45rpx;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tips {
+    margin-top: 10rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 35rpx;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.status {
+    color: #a1a3a6;
+    margin-right: 15rpx;
+}
+
+.title {
+    font-size: 45rpx;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.big {
+    height: 400rpx;
+    overflow: hidden;
+}
+
+.small {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.small image {
+    width: 100rpx;
+    height: 100rpx;
+    padding-right: 20rpx;
+}
+
+.dec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
