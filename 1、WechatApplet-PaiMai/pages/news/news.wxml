@@ -1,2 +1,51 @@
 <!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+        <!-- 消息页面： 顶部和 下部
+            顶部：三个tarbar
+            下部显示：具体的消息，根据顶部的tarbar点击情况切换
+            -->
+<view>
+    <view class="options">
+        <view class="item">
+            <image src="/icon/NewBar/sc.png"></image>
+            <text>赞和收藏</text>
+        </view>
+        <view class="item">
+            <image src="/icon/NewBar/lxr.png"></image>
+            <text>最近来访</text>
+        </view>
+        <view class="item">
+            <image src="/icon/NewBar/pl.png"></image>
+            <text>评论和@</text>
+        </view>
+    </view>
+    <view class="content">
+          <view class="item">
+            <view class="left_img">
+                <image src="/icon/NewBar/pl.png"></image>
+            </view>
+            <view class="info">
+                <view class="new_info">
+                    <view class="new_category">系统消息</view>
+                    <view class="new_time">2021-09-09</view>
+                </view>
+                <view class="new_content">
+                    我是你爸爸，我真伟大，养你这么大
+                </view>
+            </view>
+        </view>
+        <view class="item">
+            <view class="left_img">
+                <image src="/icon/NewBar/pl.png"></image>
+            </view>
+            <view class="info">
+                <view class="new_info">
+                    <view class="new_category">系统消息</view>
+                    <view class="new_time">2021-09-09</view>
+                </view>
+                <view class="new_content">
+                    霜月落庭前 照谁一夜无眠,提笔惊扰烛火 回忆难写,看人间故事 都逃不过离别
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

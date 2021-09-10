@@ -1,1 +1,81 @@
 /* pages/My/My.wxss */
+.info {
+    display: flex;
+    justify-content: space-between;
+     margin-top: 30rpx;
+}
+
+.info image {
+    height: 100rpx;
+    width: 100rpx;
+}
+
+.info .left {
+    display: flex;
+    margin-left: 30rpx;
+}
+
+.info .left view{
+    margin-left: 20rpx;
+    margin-top: 20rpx;
+}
+.info .right{
+        margin-top: 20rpx;
+}
+
+.other{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 40rpx;
+    margin-right: 40rpx;
+}
+.other .item{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.mid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-left: 25rpx;
+    margin-right: 25rpx;
+    margin-top: 80rpx;
+
+}
+.mid .item image{
+    width: 80rpx;
+    height: 80rpx;
+}
+.mid .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30rpx;
+
+}
+.bottom .item{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25rpx;
+    margin-right: 25rpx;
+    height: 40rpx;
+    margin-top: 60rpx;
+}
+
+
+.bottom_other {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 120rpx
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+}

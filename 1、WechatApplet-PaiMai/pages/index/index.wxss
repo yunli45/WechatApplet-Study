@@ -1,2 +1,21 @@
 /* pages/index/index.wxss */
- 
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20rpx;
+
+}
+
+.options image {
+    width: 90rpx;
+    height: 90rpx;
+}
+
+.options .item {
+    display: flex;
+    flex-direction: column; /* 主轴方向 */
+    /*justify-content: center;  项目在主轴方向的展示方向*/
+    align-items: center;
+
+}

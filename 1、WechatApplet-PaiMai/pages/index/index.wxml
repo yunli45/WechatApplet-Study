@@ -1,16 +1,37 @@
 <!--pages/index/index.wxml-->
         <!--分为两个部分 上部分是导航条、下部分是根据点击导航条后显示的内容-->
-        <!-- 导航条 -->
+
 <view>
-    <text></text>
-</view>
-        <!-- 内容 -->
-<view hidden="true">
-    首页
-</view>
-<view hidden="true">
-    首页1
-</view>
-<view hidden="true">
-    首页2
+    <!-- 导航条 -->
+    <view class="options"> 
+        <view class="item">
+            <image src="/icon/indexOptionBar/jp.png"/>
+            <text>精品文章</text>
+        </view> 
+        <view class="item">
+            <image src="/icon/indexOptionBar/video.png"/>
+            <text>小视频</text>
+        </view>
+        <view class="item">
+            <image src="/icon/indexOptionBar/mr.png"/> 
+            <text>名人堂</text>
+        </view>
+        <view class="item">
+            <image src="/icon/indexOptionBar/option.png"/> 
+            <text>观点说</text>
+        </view>
+    </view>
+    <!-- 内容 -->
+    <view class="content">
+        <view style="display: none;">
+            首页
+        </view>
+        <view style="display: flex;">
+            首页1
+        </view>
+        <view style="display: none;">
+            首页2
+        </view>
+    </view>
+
 </view>

@@ -1,2 +1,79 @@
 <!--pages/My/My.wxml-->
-<text>我的信息</text>
+        <!-- 我的页面
+            分为三部分：顶部个人的信息、中部支付相关功能、底部其他信息
+        -->
+<view>
+    <view class="top">
+        <view class="info">
+            <!--左部：头像、登录、注册按钮-->
+            <view class="left">
+                <image src="/icon/other/tx.png"></image>
+                <view>登录</view>
+                <view>|</view>
+                <view>注册</view>
+            </view>
+            <!--查看个人主页-->
+            <view class="right">
+                查看个人主页
+            </view>
+        </view>
+        <view class="other">
+            <view class="item">
+                <view>0</view>
+                <view>关注</view>
+            </view>
+            <view class="item">
+                <view>0</view>
+                <view>粉丝</view>
+            </view>
+            <view class="item">
+                <view>0</view>
+                <view>赞于收藏</view>
+            </view>
+            <view class="item">
+                <view>0</view>
+                <view>好友动态</view>
+            </view>
+        </view>
+    </view>
+    <view class="mid">
+        <view class="item">
+            <image src="/icon/MyBar/dzf.png"></image>
+            <view>待支付</view>
+        </view>
+        <view class="item">
+            <image src="/icon/MyBar/dfh.png"></image>
+            <view>待发货</view>
+        </view>
+        <view class="item">
+            <image src="/icon/MyBar/dsh.png"></image>
+            <view>待收货</view>
+        </view>
+        <view class="item">
+            <image src="/icon/MyBar/dpj.png"></image>
+            <view>待评价</view>
+        </view>
+        <view class="item">
+            <image src="/icon/MyBar/tk.png "></image>
+            <view>退款/售后</view>
+        </view>
+
+    </view>
+    <view class="bottom">
+        <view class="item">
+            <text>我的钱包</text>
+            <text>￥20 ></text>
+        </view>
+        <view class="item">
+            <text>我的优惠券</text>
+            <text>暂无可用 ></text>
+        </view>
+        <view class="item">
+            <text>领券中心</text>
+            <text>你的福利都在这里 ></text>
+        </view>
+    </view>
+    <view class="bottom_other">
+        <button>官方客服微信</button> <button>个人微信</button>
+    </view>
+</view>
