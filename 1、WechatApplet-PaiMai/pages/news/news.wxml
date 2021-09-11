@@ -18,8 +18,10 @@
             <text>评论和@</text>
         </view>
     </view>
+    <view class="line">
+    </view>
     <view class="content">
-          <view class="item">
+        <view class="item">
             <view class="left_img">
                 <image src="/icon/NewBar/pl.png"></image>
             </view>
@@ -31,8 +33,11 @@
                 <view class="new_content">
                     我是你爸爸，我真伟大，养你这么大
                 </view>
+                <view class="line"></view>
             </view>
+
         </view>
+
         <view class="item">
             <view class="left_img">
                 <image src="/icon/NewBar/pl.png"></image>
@@ -45,6 +50,7 @@
                 <view class="new_content">
                     霜月落庭前 照谁一夜无眠,提笔惊扰烛火 回忆难写,看人间故事 都逃不过离别
                 </view>
+                <view class="line"></view>
             </view>
         </view>
     </view>

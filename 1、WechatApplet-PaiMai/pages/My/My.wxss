@@ -1,8 +1,15 @@
 /* pages/My/My.wxss */
+.top {
+    background-color: #00B6B8;
+    padding: 30rpx;
+    color: azure;
+}
+
 .info {
     display: flex;
     justify-content: space-between;
-     margin-top: 30rpx;
+
+
 }
 
 .info image {
@@ -15,29 +22,31 @@
     margin-left: 30rpx;
 }
 
-.info .left view{
+.info .left view {
     margin-left: 20rpx;
     margin-top: 20rpx;
 }
-.info .right{
-        margin-top: 20rpx;
+
+.info .right {
+    margin-top: 20rpx;
 }
 
-.other{
+.other {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-left: 40rpx;
     margin-right: 40rpx;
 }
-.other .item{
+
+.other .item {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
 
 }
 
-.mid{
+.mid {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -46,36 +55,56 @@
     margin-top: 80rpx;
 
 }
-.mid .item image{
+
+.mid .item image {
     width: 80rpx;
     height: 80rpx;
 }
-.mid .item{
+
+.mid .item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .bottom {
     display: flex;
     flex-direction: column;
     margin-top: 30rpx;
 
 }
-.bottom .item{
+
+.bottom .item {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     margin-left: 25rpx;
     margin-right: 25rpx;
     height: 40rpx;
     margin-top: 60rpx;
 }
 
+.bottom .info {
+    display: flex;
+    justify-content: space-between;
+}
 
+.bottom .info text:nth-child(2){
+    color: #bacac6;
+}
 .bottom_other {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    margin-top: 120rpx
+    margin-top: 120rpx;
     margin-left: 30rpx;
     margin-right: 30rpx;
+}
+
+.line {
+    border-top: solid #c0ebd7 10px;
+    width: 100%;
+}
+.bottom .line{
+    border-top: solid #c0ebd7 1px;
+    width: 100%;
 }
