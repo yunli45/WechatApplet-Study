@@ -2,7 +2,7 @@
 
 .options {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: space-around;
     margin: 60rpx auto 60rpx auto;
 
