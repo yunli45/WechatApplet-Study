@@ -1,0 +1,6 @@
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>
+<button bindtap="clikeImg"> 点击上传图片</button>
+<view style="display: flex; ">
+  <image  wx:for="{{imglist}}" src ="{{item}}" style="width: 200rpx; height: 200rpx; margin: 10rpx; "></image>
+</view>
