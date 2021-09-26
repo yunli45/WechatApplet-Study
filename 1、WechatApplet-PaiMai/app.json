@@ -6,7 +6,8 @@
     "pages/pm/pm",
     "pages/release_new/release_new",
     "pages/news/news",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/loginTest/loginTest"
   ],
   "window": {
     "navigationBarBackgroundColor": "#afb4db",

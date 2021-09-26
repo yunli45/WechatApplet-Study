@@ -1,1 +1,24 @@
-/* pages/release_new/release_new.wxss */
+page {
+  background-color: #F8F8F8;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+.textarea-wrp {
+  padding: 10rpx 25rpx;
+  margin-top: 10rpx;
+  background-color: #fff;
+}
+
+.content{
+  height: 400rpx;
+}
+.img {
+  display: flex;
+  height:  400rpx; 
+}
+.img image{
+  width: 30%; 
+  height: 200rpx;
+  background-color: #882525;
+}

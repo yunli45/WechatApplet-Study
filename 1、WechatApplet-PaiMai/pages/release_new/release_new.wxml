@@ -1,2 +1,16 @@
-<!--pages/release_new/release_new.wxml-->
-<text>pages/release_new/release_new.wxml</text>
+<view>
+    <view class="textarea-wrp">
+        <input auto-focus="true" style="height: 3em" placeholder="请输入拍品名称"/>
+    </view>
+
+    <view class="textarea-wrp content">
+        <textarea auto-focus="true" style="height: 3em" placeholder="添加关于此次拍卖的说明，详细的说明有助于买家出价"/>
+    </view>
+    <view class="textarea-wrp img">
+       <image src="/icon/add.png" bindtap="chooseImage"/>
+     
+    </view>
+</view>
+
+ 
+ 
